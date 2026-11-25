@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{store} — Furniture for Home and Office in Kigali</title>
+  <meta name="description" content="Furniture showroom in Nyarutarama, Kigali: chairs, office desks, couches and office sets. Browse online and ask our sales team on WhatsApp.">
+  <meta name="theme-color" content="#f7f7fa">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/figtree-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="images/photos/co-301.webp" as="image">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add("js")</script>
+</head>
+<body data-page="home">
+  <a class="skip" href="#main">Skip to content</a>
+  <header id="site-header"></header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="rail hero-grid">
+        <div class="hero-copy">
+          <h1 id="hero-title">Furnish the room.<br><span class="tone">Then the office.</span></h1>
+          <p class="deck">Chairs, desks, couches and complete office sets, on show at our showroom in Nyarutarama. Find a piece here, then ask about it on WhatsApp in one tap.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#" data-wa="general" target="_blank" rel="noopener"><span data-icon="chat"></span>Ask on WhatsApp</a>
+            <a class="btn btn-secondary" href="category.html">Browse the collection<span data-icon="chev"></span></a>
+          </div>
+          <p class="hero-meta">
+            <span><i class="status-dot" data-open-dot></i><span data-open-text>Showroom hours below</span></span>
+            <span data-bind="address.line1"></span>
+            <a class="link" href="#business">Furnishing an office? Request a quote<span data-icon="chev"></span></a>
+          </p>
+        </div>
+        <div class="stage">
+          <canvas class="ribbon" data-ribbon="hero" aria-hidden="true"></canvas>
+          <svg class="skyline" viewBox="0 0 1200 170" preserveAspectRatio="xMinYMax slice" aria-hidden="true" focusable="false">
+            <defs>
+              <!-- one fade across the whole skyline, so it reads as a single ghost -->
+              <linearGradient id="sky-fade" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0">
+                <stop offset="0" stop-color="currentColor" stop-opacity="0"/>
+                <stop offset=".08" stop-color="currentColor" stop-opacity=".95"/>
+                <stop offset=".6" stop-color="currentColor" stop-opacity=".8"/>
+                <stop offset="1" stop-color="currentColor" stop-opacity=".4"/>
+              </linearGradient>
+            </defs>
+            <g fill="url(#sky-fade)">
+              <!-- the hills of Kigali -->
+              <path d="M0 170V128c60-18 120-30 190-26s110 22 170 18 90-30 160-34 120 16 180 20 110-14 170-18 100 6 140 14 70 10 190 6V170Z" opacity=".55"/>
+              <!-- convention-centre dome, between the hero copy and the product panel -->
+              <path d="M168 150c0-42 30-76 68-76s68 34 68 76Z"/>
+              <!-- towers (kept behind the panel so none is clipped at the stage edge) -->
+              <rect x="330" y="62" width="34" height="88"/><rect x="370" y="90" width="22" height="60"/>
+              <rect x="520" y="50" width="40" height="100"/><rect x="566" y="80" width="26" height="70"/>
+            </g>
+            <path d="M182 150c3-34 26-62 54-66M200 150c5-26 20-48 36-52M218 150c4-16 10-30 18-33" class="dome-ribs" fill="none" stroke-width="3"/>
+          </svg>
+          <div class="stage-floor"></div>
+          <figure class="stage-panel">
+            <div class="shot">
+              <img src="images/photos/co-301.webp" alt="Light grey three-seater sofa" width="1200" height="1344" style="object-position:50% 68%" fetchpriority="high">
+              <span class="shot-label">Sample photo · Classic 3-Seater Sofa</span>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="seals" id="collections" aria-labelledby="collections-title">
+      <div class="rail seals-inner">
+        <h2 id="collections-title" class="visually-hidden">Collections</h2><p class="seals-intro">Four collections, one showroom in Nyarutarama.</p>
+        <ul class="seal-row" id="seal-row"></ul>
+      </div>
+    </section>
+
+    <section class="band" aria-labelledby="featured-title">
+      <div class="rail split">
+        <div class="split-copy">
+          <h2 id="featured-title">Pieces people ask<br><span class="tone">about most.</span></h2>
+          <p class="deck">Every piece has a reference number. Tap one and your WhatsApp message already says which piece you mean, so our team can answer with price and availability straight away.</p>
+          <p class="mt-24"><a class="link" href="category.html">See all thirteen pieces<span data-icon="chev"></span></a></p>
+        </div>
+        <div class="panel rise" id="featured-panel">
+          <div class="panel-head">
+            <h3>Featured pieces</h3>
+            <div class="tabs" role="tablist" aria-label="Filter featured pieces" id="featured-tabs"></div>
+          </div>
+          <ul class="ledger" id="featured" role="tabpanel" aria-labelledby="featured-title"></ul>
+          <div class="panel-foot"><small>Prices on request: our team replies on WhatsApp.</small><a class="link" href="category.html">Full collection<span data-icon="chev"></span></a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" id="business" aria-labelledby="business-title">
+      <div class="rail split">
+        <div class="split-copy">
+          <h2 id="business-title">Furnishing a whole office?<br><span class="tone">One quote covers it.</span></h2>
+          <p class="deck">From a five-person startup to a full head office, hotel or school: tell us the space and the headcount, and the sales team prepares one quote for all of it.</p>
+          <ul class="commit">
+            <li><strong>One request for the whole space</strong><span>Workstations, chairs and meeting-room sets in a single WhatsApp message.</span></li>
+            <li><strong>Your headcount, your timing</strong><span>The form below writes the message for you, so the reply can start from the right numbers.</span></li>
+            <li><strong>Try it with your team first</strong><span>Every collection is on the floor at the Nyarutarama showroom.</span></li>
+          </ul>
+        </div>
+        <form class="panel rise" id="quote" novalidate>
+          <div class="panel-head"><h3>Request a business quote</h3><small class="panel-note">Opens WhatsApp with your request</small></div>
+          <div class="form">
+            <div class="two">
+              <div class="field">
+                <label for="q-org">Organisation <span class="hint">(optional)</span></label>
+                <input class="input" id="q-org" name="org" autocomplete="organization" placeholder="e.g. Your company name">
+              </div>
+              <div class="field">
+                <label for="q-type">Type of space</label>
+                <select class="input" id="q-type" name="type">
+                  <option>Office</option><option>Hotel or restaurant</option><option>School</option><option>Clinic</option><option>Shop or reception</option><option>Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="two">
+              <div class="field">
+                <label for="q-people">People to seat</label>
+                <input class="input" id="q-people" name="people" type="number" inputmode="numeric" min="1" max="5000" placeholder="e.g. 12" aria-describedby="q-people-err">
+                <span class="error" id="q-people-err" aria-live="polite"></span>
+              </div>
+              <div class="field">
+                <label for="q-when">When do you need it?</label>
+                <select class="input" id="q-when" name="when">
+                  <option>As soon as possible</option><option>Within a month</option><option>In 1–3 months</option><option>Just planning for now</option>
+                </select>
+              </div>
+            </div>
+            <fieldset class="field">
+              <legend>What do you need? <span class="hint">Pick any</span></legend>
+              <div class="checks">
+                <label class="check"><input type="checkbox" name="need" value="Workstations"><span>Workstations</span></label>
+                <label class="check"><input type="checkbox" name="need" value="Office chairs"><span>Office chairs</span></label>
+                <label class="check"><input type="checkbox" name="need" value="Meeting room"><span>Meeting room</span></label>
+                <label class="check"><input type="checkbox" name="need" value="Executive office"><span>Executive office</span></label>
+                <label class="check"><input type="checkbox" name="need" value="Reception and lounge"><span>Reception and lounge</span></label>
+                <label class="check"><input type="checkbox" name="need" value="Storage"><span>Storage</span></label>
+              </div>
+            </fieldset>
+            <div class="preview" id="q-preview" aria-live="polite"></div>
+            <button class="btn btn-primary btn-block" type="submit"><span data-icon="chat"></span>Send request on WhatsApp<span data-icon="chev"></span></button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="band" id="showroom" aria-labelledby="showroom-title">
+      <div class="rail split">
+        <div>
+          <h2 id="showroom-title">Sit on it<br><span class="tone">before you buy it.</span></h2>
+          <p class="deck">The showroom is on the second floor of the Deco Center Complex in Nyarutarama, with every collection on the floor.</p>
+          <div class="facts-list">
+            <div><p class="label">Address</p><address id="address"></address><a class="link" id="directions" href="#" target="_blank" rel="noopener">Get directions<span data-icon="chev"></span></a></div>
+            <div><p class="label">Opening hours</p><ul class="hours" id="hours"></ul></div>
+            <div><p class="label">Sales team</p><div class="contacts" id="contacts"></div></div>
+          </div>
+        </div>
+        <div class="panel map rise" id="map"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/ribbon.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

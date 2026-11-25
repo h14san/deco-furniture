@@ -1,0 +1,580 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-25T17:29:18+00:00",
+  "title": "Design System: Deco Center",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Bone Ground",
+        "canonical": "oklch(97.7% 0.004 286.3)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#242425",
+          "#3f3f41",
+          "#5d5d60",
+          "#808082",
+          "#a4a4a6",
+          "#cacacc",
+          "#eeeef0"
+        ]
+      },
+      "plate": {
+        "role": "neutral",
+        "displayName": "Plate White",
+        "canonical": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242424",
+          "#404040",
+          "#5d5d5d",
+          "#808080",
+          "#a4a4a4",
+          "#cacaca",
+          "#eeeeee"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Prospectus Ink",
+        "canonical": "oklch(23.9% 0.090 282.7)",
+        "tonalRamp": [
+          "#09081d",
+          "#20203e",
+          "#3b3a63",
+          "#57578a",
+          "#797ab1",
+          "#9ea0d0",
+          "#c4c7ef",
+          "#e9ebff"
+        ]
+      },
+      "deck": {
+        "role": "neutral",
+        "displayName": "Deck Slate",
+        "canonical": "oklch(43.7% 0.034 271.9)",
+        "tonalRamp": [
+          "#090b12",
+          "#20242f",
+          "#3b3f4e",
+          "#575d70",
+          "#797f94",
+          "#9ea4b6",
+          "#c5cad9",
+          "#eaeefa"
+        ]
+      },
+      "quiet": {
+        "role": "neutral",
+        "displayName": "Quiet Slate",
+        "canonical": "oklch(50.6% 0.032 274.2)",
+        "tonalRamp": [
+          "#090b12",
+          "#21232e",
+          "#3b3f4d",
+          "#585d6f",
+          "#7a7f93",
+          "#9fa4b5",
+          "#c6cad8",
+          "#ebeefa"
+        ]
+      },
+      "violet": {
+        "role": "primary",
+        "displayName": "Prospectus Violet",
+        "canonical": "oklch(56.7% 0.202 282.7)",
+        "tonalRamp": [
+          "#0b0032",
+          "#20105e",
+          "#392a8d",
+          "#5445c0",
+          "#746aec",
+          "#9895ff",
+          "#bec0ff",
+          "#e4e7ff"
+        ]
+      },
+      "violet-hover": {
+        "role": "primary",
+        "displayName": "Pressed Violet",
+        "canonical": "oklch(51.3% 0.204 281.3)",
+        "tonalRamp": [
+          "#0a0033",
+          "#1f105f",
+          "#372a8f",
+          "#5245c1",
+          "#716aed",
+          "#9596ff",
+          "#bcc0ff",
+          "#e2e7ff"
+        ]
+      },
+      "violet-active": {
+        "role": "primary",
+        "displayName": "Deep Seal Violet",
+        "canonical": "oklch(34.0% 0.146 279.7)",
+        "tonalRamp": [
+          "#080428",
+          "#1d1b4f",
+          "#363579",
+          "#5051a6",
+          "#7175d0",
+          "#969ceb",
+          "#bec5ff",
+          "#e4eaff"
+        ]
+      },
+      "violet-wash": {
+        "role": "primary",
+        "displayName": "Violet Wash",
+        "canonical": "oklch(95.2% 0.021 291.7)",
+        "tonalRamp": [
+          "#0b0a0f",
+          "#24232a",
+          "#403e48",
+          "#5d5c68",
+          "#807e8c",
+          "#a4a3af",
+          "#cac9d3",
+          "#eeedf5"
+        ]
+      },
+      "select": {
+        "role": "primary",
+        "displayName": "Selection Lilac",
+        "canonical": "oklch(88.4% 0.055 292.1)",
+        "tonalRamp": [
+          "#0b0a11",
+          "#252331",
+          "#423e55",
+          "#615c7b",
+          "#837d9e",
+          "#a5a1bb",
+          "#c9c6d9",
+          "#eeedf8"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "oklch(92.9% 0.009 279.7)",
+        "tonalRamp": [
+          "#0b0b0d",
+          "#232427",
+          "#3f3f44",
+          "#5c5d63",
+          "#7f8086",
+          "#a3a4a9",
+          "#c9cace",
+          "#eeeef2"
+        ]
+      },
+      "engrave": {
+        "role": "neutral",
+        "displayName": "Engraving Grey",
+        "canonical": "oklch(65.7% 0.033 277.3)",
+        "tonalRamp": [
+          "#090b12",
+          "#21232e",
+          "#3c3f4d",
+          "#595c6f",
+          "#7b7f93",
+          "#a0a3b5",
+          "#c7cad8",
+          "#ebeefa"
+        ]
+      },
+      "stroke": {
+        "role": "neutral",
+        "displayName": "Control Stroke",
+        "canonical": "oklch(65.7% 0.033 277.3)",
+        "tonalRamp": [
+          "#0a0b0f",
+          "#23242d",
+          "#3f414e",
+          "#5d6072",
+          "#7e8194",
+          "#a1a4b4",
+          "#c6c8d4",
+          "#edeef5"
+        ]
+      },
+      "row-hover": {
+        "role": "neutral",
+        "displayName": "Row Tint",
+        "canonical": "oklch(98.9% 0.003 286.4)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#252526",
+          "#424243",
+          "#616163",
+          "#828284",
+          "#a5a5a7",
+          "#c9c9cb",
+          "#eeeef0"
+        ]
+      },
+      "photo-ground": {
+        "role": "neutral",
+        "displayName": "Photo Ground",
+        "canonical": "oklch(94.9% 0.008 271.3)",
+        "tonalRamp": [
+          "#0a0b0f",
+          "#232529",
+          "#404247",
+          "#5f6166",
+          "#808287",
+          "#a3a5aa",
+          "#c7c9cf",
+          "#eceef4"
+        ]
+      },
+      "skyline": {
+        "role": "neutral",
+        "displayName": "Ghost Skyline",
+        "canonical": "oklch(90.9% 0.014 281.5)",
+        "tonalRamp": [
+          "#0a0b11",
+          "#24242c",
+          "#414149",
+          "#606069",
+          "#81818b",
+          "#a3a4ae",
+          "#c7c8d2",
+          "#edeef8"
+        ]
+      },
+      "scroll": {
+        "role": "neutral",
+        "displayName": "Scroll Grey",
+        "canonical": "oklch(83.8% 0.018 279.0)",
+        "tonalRamp": [
+          "#090a13",
+          "#23242e",
+          "#40414c",
+          "#5f606c",
+          "#80818d",
+          "#a2a4b1",
+          "#c6c8d5",
+          "#ebeefb"
+        ]
+      },
+      "ribbon-a": {
+        "role": "secondary",
+        "displayName": "Ribbon Teal",
+        "canonical": "oklch(82.4% 0.087 188.2)",
+        "tonalRamp": [
+          "#00100f",
+          "#002c29",
+          "#004b46",
+          "#116c66",
+          "#3c9089",
+          "#71b3ad",
+          "#a2d7d1",
+          "#cff8f4"
+        ]
+      },
+      "ribbon-b": {
+        "role": "secondary",
+        "displayName": "Ribbon Lilac",
+        "canonical": "oklch(81.6% 0.080 298.5)",
+        "tonalRamp": [
+          "#0d0719",
+          "#271e39",
+          "#44385c",
+          "#635481",
+          "#8677a7",
+          "#a99dc7",
+          "#cec4e8",
+          "#f1e9ff"
+        ]
+      },
+      "ribbon-c": {
+        "role": "secondary",
+        "displayName": "Ribbon Indigo",
+        "canonical": "oklch(52.0% 0.199 280.9)",
+        "tonalRamp": [
+          "#0a0032",
+          "#1e125e",
+          "#372c8d",
+          "#5147bf",
+          "#706beb",
+          "#9496ff",
+          "#bcc1ff",
+          "#e2e8ff"
+        ]
+      },
+      "danger": {
+        "role": "semantic",
+        "displayName": "Signal Red",
+        "canonical": "oklch(50.5% 0.179 17.8)",
+        "tonalRamp": [
+          "#250001",
+          "#4d000e",
+          "#780d23",
+          "#a62639",
+          "#d14c59",
+          "#ef7d83",
+          "#ffacaf",
+          "#ffd7d8"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Page h1, two lines with a violet second line. Hero narrows to clamp(3rem, 5.6vw, 5.25rem) from 900px."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Band h2s, two lines with a violet second line."
+      },
+      "headline-sm": {
+        "displayName": "Headline Small",
+        "purpose": "Closing-panel h2, clamp(1.6rem, 3vw, 2.25rem)."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "h3 and the mark, 1.25rem."
+      },
+      "title-sm": {
+        "displayName": "Title Small",
+        "purpose": "Panel heads, ledger row names, product item names, drawer links, footer mark, 1.125rem."
+      },
+      "deck": {
+        "displayName": "Deck",
+        "purpose": "Standfirst under each headline, deck slate, max 34em."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text and UI, tabular numerals."
+      },
+      "body-sm": {
+        "displayName": "Body Small",
+        "purpose": "Secondary UI at 0.9375rem: field labels, tabs, chips, small buttons, fact values, crumbs, counts, footer."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Hints, errors, seal counts, menu notes, foot note at 0.8125rem."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase key of a key/value pair only, quiet slate; 0.75rem fact keys, 0.8125rem showroom labels and footer heads."
+      }
+    },
+    "shadows": [
+      {
+        "name": "lift",
+        "value": "0 1px 2px rgba(27, 21, 71, .04), 0 12px 32px -12px rgba(27, 21, 71, .14)",
+        "purpose": "Resting panels, product items, product photo."
+      },
+      {
+        "name": "lift-hi",
+        "value": "0 2px 4px rgba(27, 21, 71, .05), 0 28px 56px -20px rgba(27, 21, 71, .28)",
+        "purpose": "Hovered items, the hero photo in the ribbon fold, dropdown menus."
+      },
+      {
+        "name": "focus-glow",
+        "value": "0 0 0 3px rgba(107, 92, 231, .18)",
+        "purpose": "Inputs on focus, with a violet border."
+      },
+      {
+        "name": "status-ring",
+        "value": "0 0 0 4px var(--violet-wash)",
+        "purpose": "Halo around the violet open-status dot."
+      },
+      {
+        "name": "pin-rings",
+        "value": "0 0 0 8px rgba(107, 92, 231, .16), 0 0 0 22px rgba(107, 92, 231, .07)",
+        "purpose": "The map pin only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.25, 1, .5, 1)",
+        "purpose": "All 0.3s state transitions: colour, border, chevron nudge."
+      },
+      {
+        "name": "ease-rise",
+        "value": "cubic-bezier(.165, .84, .44, 1)",
+        "purpose": "0.8s panel rise (last 24px) and photo zoom on item hover."
+      },
+      {
+        "name": "bar-frost",
+        "value": "0.3s var(--ease) on background and border",
+        "purpose": "Sticky bar frosts to bone glass and gains its hairline once scrolled past 8px."
+      },
+      {
+        "name": "ribbon-unfurl",
+        "value": "1.4s exponential ease-out, once",
+        "purpose": "Ribbon draws along its length on load; one ribbon per surface (hero or page head)."
+      },
+      {
+        "name": "ribbon-lean",
+        "value": "up to 12px within 240px of the pointer, 0.16 per-frame easing",
+        "purpose": "Ribbon crest leans toward the pointer."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "all durations 0s; ribbon drawn once",
+        "purpose": "prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact",
+        "value": "max-width 559px"
+      },
+      {
+        "name": "two",
+        "value": "560px"
+      },
+      {
+        "name": "grid-2",
+        "value": "620px"
+      },
+      {
+        "name": "closing",
+        "value": "760px"
+      },
+      {
+        "name": "desktop",
+        "value": "900px"
+      },
+      {
+        "name": "grid-3",
+        "value": "1000px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one filled action: WhatsApp and quote CTAs. Violet fill, trailing chevron.",
+      "html": "<button class=\"ds-btn ds-btn-primary\">Ask on WhatsApp<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9 6l6 6-6 6\"/></svg></button>",
+      "css": ".ds-btn { display:inline-flex; align-items:center; gap:10px; min-height:48px; padding:12px 22px; border-radius:var(--r-btn); border:1px solid var(--violet); font-family: var(--font); font-weight:500; font-size:1rem; line-height:1.2; cursor:pointer; text-decoration:none; transition: background-color .3s var(--ease), border-color .3s var(--ease), color .3s var(--ease); } .ds-btn svg { width:14px; height:14px; transition: transform .3s var(--ease); } .ds-btn:hover svg { transform: translateX(3px); } .ds-btn:focus-visible { outline:2px solid var(--violet); outline-offset:3px; } .ds-btn-primary { background:var(--violet); color:#fff; } .ds-btn-primary:hover { background:var(--violet-hover); border-color:var(--violet-hover); } .ds-btn-primary:active { background:var(--violet-active); border-color:var(--violet-active); }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "White plate with violet outline and text; pairs with the primary.",
+      "html": "<button class=\"ds-btn ds-btn-secondary\">Browse the collection<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9 6l6 6-6 6\"/></svg></button>",
+      "css": ".ds-btn { display:inline-flex; align-items:center; gap:10px; min-height:48px; padding:12px 22px; border-radius:var(--r-btn); border:1px solid var(--violet); font-family: var(--font); font-weight:500; font-size:1rem; line-height:1.2; cursor:pointer; text-decoration:none; transition: background-color .3s var(--ease), border-color .3s var(--ease), color .3s var(--ease); } .ds-btn svg { width:14px; height:14px; transition: transform .3s var(--ease); } .ds-btn:hover svg { transform: translateX(3px); } .ds-btn:focus-visible { outline:2px solid var(--violet); outline-offset:3px; } .ds-btn-secondary { background:var(--plate); color:var(--violet); } .ds-btn-secondary:hover { background:var(--violet-wash); color:var(--violet-hover); } .ds-btn-secondary:active { border-color:var(--violet-active); color:var(--violet-active); }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "48px field on white with a stroke outline and label above; deck border on hover, violet border and soft glow on focus.",
+      "html": "<label class=\"ds-field\"><span>People to seat</span><input class=\"ds-input\" placeholder=\"e.g. 12\"></label>",
+      "css": ".ds-field { display:grid; gap:8px; font-family: var(--font); color:var(--ink); } .ds-field > span { font-weight:500; font-size:.9375rem; } .ds-input { font-family: var(--font); font-size:1rem; color:var(--ink); background:var(--plate); border:1px solid var(--stroke); border-radius:var(--r-btn); min-height:48px; padding:10px 14px; transition: border-color .3s var(--ease), box-shadow .3s var(--ease); } .ds-input::placeholder { color:var(--quiet); } .ds-input:hover { border-color:var(--deck); } .ds-input:focus { outline:none; border-color:var(--violet); box-shadow:0 0 0 3px rgba(107,92,231,.18); }"
+    },
+    {
+      "name": "Bar Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Sticky bar, transparent at rest; shown here in its scrolled state: bone glass, hairline, ink links that turn violet.",
+      "html": "<nav class=\"ds-nav is-scrolled\"><a class=\"ds-mark\" href=\"#\"><svg viewBox=\"0 0 34 22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M2 3h30M2 9h30M5 15h24M7 15v6M27 15v6\"/></svg>Deco Center</a><a href=\"#\" aria-current=\"page\">Shop</a><a href=\"#\">Business</a><a href=\"#\">Showroom</a></nav>",
+      "css": ".ds-nav { display:flex; align-items:center; gap:4px; height:72px; padding:0 16px; background:transparent; border-bottom:1px solid transparent; font-family: var(--font); transition: background-color .3s var(--ease), border-color .3s var(--ease); } .ds-nav.is-scrolled { background:rgba(247,247,250,.86); backdrop-filter:saturate(1.4) blur(14px); -webkit-backdrop-filter:saturate(1.4) blur(14px); border-bottom-color:var(--hairline); } .ds-nav a { color:var(--ink); text-decoration:none; padding:10px 14px; border-radius:var(--r-btn); transition: color .3s var(--ease); } .ds-nav a:hover, .ds-nav a[aria-current] { color:var(--violet); } .ds-nav a:focus-visible { outline:2px solid var(--violet); outline-offset:3px; } .ds-nav .ds-mark { display:inline-flex; align-items:center; gap:12px; font-weight:500; font-size:1.25rem; letter-spacing:-.01em; margin-right:24px; padding:0; } .ds-mark svg { width:34px; height:22px; }"
+    },
+    {
+      "name": "Segmented Tabs",
+      "kind": "nav",
+      "refersTo": "tab",
+      "description": "Collection filter: deck text with a 2px violet underline when selected.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\"><button class=\"ds-tab\" aria-selected=\"true\">Featured</button><button class=\"ds-tab\">Chairs</button><button class=\"ds-tab\">Office desks</button></div>",
+      "css": ".ds-tabs { display:flex; gap:4px; border-bottom:1px solid var(--hairline); } .ds-tab { font-family: var(--font); font-size:.9375rem; color:var(--deck); background:none; border:0; border-bottom:2px solid transparent; padding:10px 12px; cursor:pointer; transition: color .3s var(--ease), border-color .3s var(--ease); } .ds-tab:hover { color:var(--violet); } .ds-tab[aria-selected=true] { color:var(--violet); border-bottom-color:var(--violet); } .ds-tab:focus-visible { outline:2px solid var(--violet); outline-offset:3px; }"
+    },
+    {
+      "name": "Check Chip",
+      "kind": "chip",
+      "refersTo": "check-chip-selected",
+      "description": "Multi-select need chips in the quote form; violet wash when checked.",
+      "html": "<div class=\"ds-checks\"><label class=\"ds-check\"><input type=\"checkbox\" checked><span>Workstations</span></label><label class=\"ds-check\"><input type=\"checkbox\"><span>Storage</span></label></div>",
+      "css": ".ds-checks { display:flex; gap:8px; font-family: var(--font); } .ds-check { position:relative; } .ds-check input { position:absolute; opacity:0; inset:0; margin:0; cursor:pointer; } .ds-check span { display:inline-flex; align-items:center; gap:8px; min-height:40px; padding:8px 14px; border:1px solid var(--stroke); border-radius:var(--r-btn); font-size:.9375rem; background:var(--plate); color:var(--ink); transition: border-color .3s var(--ease), background-color .3s var(--ease), color .3s var(--ease); } .ds-check span::before { content:''; width:14px; height:14px; border-radius:4px; border:1px solid var(--stroke); flex:none; } .ds-check input:checked + span { border-color:var(--violet); background:var(--violet-wash); color:var(--violet-active); } .ds-check input:checked + span::before { background:var(--violet); border-color:var(--violet); } .ds-check input:focus-visible + span { outline:2px solid var(--violet); outline-offset:2px; } .ds-check input:checked + span::before { background:var(--violet) url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3.5 7.2l2.3 2.3 4.7-4.9'/%3E%3C/svg%3E\") center / 12px no-repeat; border-color:var(--violet); }"
+    },
+    {
+      "name": "Ledger Panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "White plate with hairline head and rows; products listed with reference facts and a circular go button.",
+      "html": "<div class=\"ds-panel\"><div class=\"ds-panel-head\">Featured pieces</div><a class=\"ds-row\" href=\"#\"><span class=\"ds-thumb\"></span><span><span class=\"ds-name\">Classic 3-Seater Sofa</span><span class=\"ds-facts\"><span><small>Ref</small>CO-301</span><span><small>Price</small>On request</span></span></span><span class=\"ds-go\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></span></a></div>",
+      "css": ".ds-panel { background:var(--plate); border:1px solid var(--hairline); border-radius:var(--r-panel); box-shadow:var(--lift); font-family: var(--font); color:var(--ink); overflow:hidden; } .ds-panel-head { padding:20px 24px; border-bottom:1px solid var(--hairline); font-weight:500; font-size:1.125rem; letter-spacing:-.01em; } .ds-row { display:grid; grid-template-columns:88px 1fr auto; gap:16px; align-items:center; padding:16px 24px; color:inherit; text-decoration:none; transition: background-color .3s var(--ease); } .ds-row:hover { background:var(--row-hover); } .ds-thumb { width:88px; aspect-ratio:1; border-radius:8px; background:var(--ground); } .ds-name { font-weight:500; font-size:1.125rem; line-height:1.3; display:block; } .ds-facts { display:flex; gap:24px; margin-top:8px; font-size:.9375rem; } .ds-facts span { display:grid; } .ds-facts small { font-size:.75rem; letter-spacing:.04em; text-transform:uppercase; color:var(--quiet); } .ds-go { width:36px; height:36px; border-radius:50%; border:1px solid var(--hairline); display:grid; place-items:center; transition: border-color .3s var(--ease), color .3s var(--ease), transform .3s var(--ease); } .ds-go svg { width:16px; height:16px; } .ds-row:hover .ds-go { border-color:var(--violet); color:var(--violet); transform:translateX(2px); } .ds-row:focus-visible { outline:2px solid var(--violet); outline-offset:-2px; }"
+    },
+    {
+      "name": "Collection Seal",
+      "kind": "custom",
+      "description": "Engraved line-art roundel naming a collection; engraving turns violet on hover.",
+      "html": "<a class=\"ds-seal\" href=\"#\"><svg viewBox=\"0 0 104 104\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><defs><path id=\"ds-ring\" d=\"M52 52m-41 0a41 41 0 1 1 82 0a41 41 0 1 1-82 0\"/></defs><circle cx=\"52\" cy=\"52\" r=\"50\"/><circle cx=\"52\" cy=\"52\" r=\"34\"/><text font-size=\"7.2\" letter-spacing=\"1.6\" fill=\"currentColor\" stroke=\"none\"><textPath href=\"#ds-ring\" textLength=\"250\">COUCHES · DECO CENTER · KIGALI · </textPath></text><path d=\"M36 48v-6a4 4 0 0 1 4-4h24a4 4 0 0 1 4 4v6M32 50a4 4 0 0 1 4 4v6h32v-6a4 4 0 0 1 8 0v10H28V54a4 4 0 0 1 4-4zM31 64v5M73 64v5\"/></svg><span>Couches</span><small>4 pieces</small></a>",
+      "css": ".ds-seal { display:inline-grid; justify-items:center; gap:10px; padding:12px 4px; color:var(--engrave); text-decoration:none; border-radius:var(--r-panel); font-family: var(--font); transition: color .3s var(--ease); } .ds-seal svg { width:104px; height:104px; } .ds-seal span { color:var(--ink); font-weight:500; transition: color .3s var(--ease); } .ds-seal small { color:var(--quiet); font-size:.8125rem; margin-top:-8px; } .ds-seal:hover, .ds-seal:focus-visible { color:var(--violet); } .ds-seal:hover span { color:var(--violet); } .ds-seal:focus-visible { outline:2px solid var(--violet); outline-offset:3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Civic Prospectus",
+    "overview": "The site reads like a late-modern business prospectus issued by a showroom: a bone-white plate, one deep ink, one violet for every action, and a single silk ribbon of teal-to-violet light that carries all the remaining colour. The furniture sits on this plate the way an exhibit sits in a report: framed in a 12px panel, captioned, referenced by number. Nothing is warm or rustic, and nothing is a lifestyle collage.\n\nDensity is calm and ruled. Bands are separated by 1px hairlines on a 1180px rail, information is set as ledgers and spec lists rather than cards stacked on cards, and the type is one geometric grotesque at two weights. Depth is a soft ink-tinted lift on panels only. The world's own ornaments are civic: engraved line-art seals for the collections, a ghosted Kigali skyline in the lower register of the hero, and a drawn floor-plan map. One ribbon per surface: the hero on home, the page head on category, none on the product page and none on closing panels.\n\nMotion is rationed. The ribbon unfurls once and leans up to 12px toward the pointer; panels travel their last 24px as they enter. Everything else changes state by colour only, and reduced motion makes the whole page static.",
+    "keyCharacteristics": [
+      "Bone-white ground and white plates, ink #1b1547 instead of black.",
+      "One violet for every action, link, selected state, open-status dot and focus ring.",
+      "All other colour lives in the canvas ribbon.",
+      "One typeface (Figtree), weights 400 and 500 only.",
+      "1px hairline rules divide bands, rows and spec lines.",
+      "Two radii: 8px for controls, 12px for panels; 4px only for the checkbox box and focus outline.",
+      "Ink-tinted soft lift on panels; no hard or offset shadows."
+    ],
+    "rules": [
+      {
+        "name": "The One Violet Rule",
+        "body": "Every interactive affordance is violet and nothing decorative is. If an element is violet, it can be pressed, is selected, reports live state (the open-status dot), or is the second line of a headline.",
+        "section": "colors"
+      },
+      {
+        "name": "The Ribbon Holds the Colour Rule",
+        "body": "Teal and lilac appear only in the ribbon canvas. They are never used for text, fills, borders or icons elsewhere.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Weights Rule",
+        "body": "Only 400 and 500 exist. Emphasis is weight 500 or violet, never 600+, italic, or a second family.",
+        "section": "typography"
+      },
+      {
+        "name": "The Six Steps Rule",
+        "body": "Text sizes come from the ramp above. A new size is a new token, not a one-off.",
+        "section": "typography"
+      },
+      {
+        "name": "The Second Line Rule",
+        "body": "Display and headline text is written as two short lines; the second line carries the turn of the sentence and is violet.",
+        "section": "typography"
+      },
+      {
+        "name": "The Ink Shadow Rule",
+        "body": "Shadows are tinted with ink (rgba 27, 21, 71), long and soft with negative spread. Never neutral black, never hard or offset.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do spend violet only on things that can be pressed, are selected, or form a headline's second line.",
+      "Do keep teal and lilac inside the ribbon canvas, and draw at most one ribbon per surface.",
+      "Do outline inputs, selects and check chips in stroke (#8c90a6); keep hairline for structure.",
+      "Do divide bands, rows and spec lines with 1px hairline rules on the 1180px rail.",
+      "Do use 8px radius for controls and 12px for panels and photo frames, nothing in between; 4px is reserved for the checkbox box and focus outline.",
+      "Do take every text size from the 0.75 / 0.8125 / 0.9375 / 1 / 1.125 / 1.25rem ramp or the heading clamps.",
+      "Do set uppercase 0.04em labels only as the key of a key/value pair.",
+      "Do label every stock photo with the \"Sample photo\" caption chip.",
+      "Do list products as ledger rows or ruled spec lists with a reference number."
+    ],
+    "donts": [
+      "Don't use pure black or neutral-black shadows; ink #1b1547 and ink-tinted shadows only.",
+      "Don't introduce a second typeface or weights above 500.",
+      "Don't add motion beyond the ribbon unfurl, the pointer lean, the 24px panel rise and colour transitions.",
+      "Don't place a headline over a full-bleed lifestyle photo.",
+      "Don't add hard or offset shadows.",
+      "Don't introduce green or any semantic colour other than danger; live status is violet."
+    ]
+  }
+}

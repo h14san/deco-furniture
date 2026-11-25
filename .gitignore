@@ -1,0 +1,11 @@
+# Claude Code / Impeccable tooling (local to each machine)
+.claude/
+
+# Impeccable working files (downloaded reference images, scratch output)
+.impeccable/reference/
+.impeccable/*.out
+
+# OS / editor
+.DS_Store
+Thumbs.db
+node_modules/

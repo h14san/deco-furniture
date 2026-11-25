@@ -1,0 +1,11 @@
+{
+  "name": "deco-furniture",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Demo website for a furniture showroom in Nyarutarama, Kigali",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "images": "node scripts/gen-placeholders.mjs"
+  }
+}

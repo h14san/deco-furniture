@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#f4ece3"/>
+  <rect y="478" width="800" height="122" fill="#000" opacity=".03"/>
+  
+  <ellipse cx="400" cy="478" rx="230" ry="12" fill="#000" opacity=".08"/>
+  <rect x="292" y="186" width="130" height="84" rx="6" fill="#2f241d"/><rect x="350" y="270" width="14" height="12" fill="#6f6a66"/><rect x="330" y="278" width="54" height="6" rx="3" fill="#6f6a66"/>
+  <rect x="190" y="282" width="420" height="24" rx="4" fill="#d3a676"/>
+  <rect x="205" y="306" width="20" height="168" fill="#c08a5b"/>
+  <rect x="470" y="306" width="125" height="168" fill="#c08a5b"/>
+  <line x1="478" x2="587" y1="350" y2="350" stroke="#000" stroke-opacity=".15" stroke-width="3"/><rect x="520" y="328" width="26" height="5" rx="2" fill="#000" opacity=".2"/><line x1="478" x2="587" y1="400" y2="400" stroke="#000" stroke-opacity=".15" stroke-width="3"/><rect x="520" y="378" width="26" height="5" rx="2" fill="#000" opacity=".2"/><line x1="478" x2="587" y1="445" y2="445" stroke="#000" stroke-opacity=".15" stroke-width="3"/><rect x="520" y="423" width="26" height="5" rx="2" fill="#000" opacity=".2"/>
+</svg>
